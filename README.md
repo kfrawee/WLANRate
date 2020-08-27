@@ -21,5 +21,5 @@ pip install -r requirements.txt
 - Install a comatable webdriver. *[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)* 
 - Modify [`login.py`](https://github.com/kfrawee/WLANRate/blob/master/login.py) with your login credentials.
 - Check `default_gateway` in [`wlan_rate.py`](https://github.com/kfrawee/WLANRate/blob/master/wlan_rate.py). *By dafault `default_gateway = r'https://192.168.1.1/'`*
-- In script directory, type `python wlan_rate.py` in your terminal 
+- In script directory, type `python wlan_rate.py` in your terminal.
 --- 
