@@ -1,3 +1,3 @@
-# type your login cr
+# your login credentials
 user = "USERNAME"
 password = "PASSWORD"
