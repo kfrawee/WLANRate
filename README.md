@@ -1,6 +1,5 @@
-# WLAN Rate  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) <a href="https://twitter.com/intent/follow?screen_name=kfrawee">
-        <img src="https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter"
-            alt="follow on Twitter"></a>
+# WLAN Rate  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
+
 
 ## About
 This simple script uses [selenium](https://pypi.org/project/selenium/) to automate a basic task of changing wlan rate (speed) for controlling internet usage and quota. **only for Huawei - HG630 V2**. *You may try on other modems*<br>
