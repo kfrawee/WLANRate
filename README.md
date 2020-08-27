@@ -11,6 +11,9 @@ This simple script uses [selenium](https://pypi.org/project/selenium/) to automa
 ---
 ## Usage
 - Clone the repo to your local machine.
+```
+git clone https://github.com/kfrawee/WLANRate.git
+```
 - Use the `requirements.txt` to install required libraries.
 ```
 pip install -r requirements.txt
