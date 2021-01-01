@@ -18,10 +18,10 @@ git clone https://github.com/kfrawee/WLANRate.git
 ```
 pip install -r requirements.txt
 ```
-- Install a comatable webdriver. *[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)* 
+- ~~Install a comatable webdriver. *[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)*~~ The script will automatically detect your Chrome browser version and will download the compatible webdriver.
 - Modify [`login.py`](https://github.com/kfrawee/WLANRate/blob/master/login.py) with your login credentials.
 - Check `default_gateway` in [`wlan_rate.py`](https://github.com/kfrawee/WLANRate/blob/master/wlan_rate.py). *By dafault `default_gateway = r'https://192.168.1.1/'`*
 - **First**, make sure to change your Transmission mode to 802.11b/g to allow WLAN rate changing.
 >![](TRmode.jpg)
-- In script directory, type `python wlan_rate.py` in your terminal.
+- In the directory, type `python wlan_rate.py` in your terminal or use `run.bat`.
 --- 
