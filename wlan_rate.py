@@ -2,13 +2,14 @@
 Name: WLAN Rate changer
 Note: Works only on Router Model: Huawei - HG630 V2
 Author: kfrawee
-""" 
+"""
 
 from os import system
 from sys import exit
 from time import sleep
 
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
@@ -19,6 +20,9 @@ from colorama import Fore, init
 from login import user, password
 from welcome import welcome
 
+# Chromedriver path
+driver = webdriver.Chrome(ChromeDriverManager().install())
+
 init(autoreset=True)
 system('cls')
 
@@ -26,9 +30,6 @@ print(f"{Fore.CYAN}{welcome}")
 sleep(3)
 system('cls')
 
-# Chromedriver path
-PATH = r"C:\Program Files (x86)\chromedriver.exe"
-driver = webdriver.Chrome(PATH)
 
 # Default Gateway url
 default_gateway = r'https://192.168.1.1/'
