@@ -2,7 +2,7 @@
 
 
 ## About
-This simple script uses [selenium](https://pypi.org/project/selenium/) to automate a basic task of changing wlan rate (speed) for controlling internet usage and quota. **only for Huawei - HG630 V2**. *You may try on other modems*<br>
+This simple script uses [selenium](https://pypi.org/project/selenium/) to automate the basic task of changing WLAN rate (speed) for controlling internet usage and quota. **only for Huawei - HG630 V2**. *You may try on other modems*<br>
 - It will list your current rate.
 - List all availble rates.
 
